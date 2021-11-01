@@ -8,11 +8,12 @@ vector_dim = 128
 result_size = 100
 k = 10
 
-#70% - 8
-#80% - 11
-#90% - 17
-#95% - 23
-#99% - 42
+#For approximate recall:
+#70% - 8 trees
+#80% - 11 trees
+#90% - 17 trees
+#95% - 23 trees
+#99% - 42 trees
 num_of_forests = 8
 
 file = open('C:\\Users\\mikul\\OneDrive\\VSB\\ING\\3SM\\AVD\\cviceni\\cv7\\sift1M\\sift1M.bin', 'r')
